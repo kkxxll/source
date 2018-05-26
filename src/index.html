@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Learn Vue</title>
 </head>
 
 <body>
-    <div id="app">
-        <p>{{msg}}</p>
-        <p>{{msg}}</p>
-        <p>{{msg}}</p>
-        <p>{{what}}</p>
-        <p>{{hey}}</p>
+    <div id="app" sd-on-click="changeMessage | .myclass">
+        <p sd-text="name | capitalize"></p>
+        <p sd-show="something">can show</p>
+        <p class="myclass" sd-text="name"></p>
+        <p sd-class-red="error" sd-text="age"></p>
     </div>
 </body>
 
