@@ -37,5 +37,8 @@ module.exports = {
                 if (match) handler.apply(this, ['yeah'])
             }
         }
+    },
+    repeat: function () {
+        
     }
 }
